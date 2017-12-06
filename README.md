@@ -43,6 +43,7 @@ There are 3 top level queries - author, authors and books. Following are some sa
 ```
 
 Or with variables -
+
 Query:
 ```
 query getAuthor($id: Int!) {
@@ -91,6 +92,7 @@ mutation {
 ```
 
 Or with variables -
+
 Mutation:
 ```
 mutation createBook($name: String!, $authorId: Int!) {
